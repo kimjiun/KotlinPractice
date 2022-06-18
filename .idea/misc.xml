@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch10_dialog/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch8_event/src/main/res/drawable/round_button.xml" value="0.123" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch8_event/src/main/res/layout/activity_main.xml" value="0.11197916666666667" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch9_resource/src/main/res/layout-land/activity_main.xml" value="0.21472663139329806" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch9_resource/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/src/main/res/layout/activity_main.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

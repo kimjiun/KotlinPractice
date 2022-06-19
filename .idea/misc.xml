@@ -3,7 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch10_dialog/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.119" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch10_dialog/src/main/res/drawable/ic_launcher_background.xml" value="0.119" />
         <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch10_dialog/src/main/res/layout/activity_main.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch10_dialog/src/main/res/layout/custom_dialog.xml" value="0.25875" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/activity_main.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/activity_main2.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/activity_main3.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/fragment_blank.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/item_main.xml" value="0.1" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/item_pager.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/itme_main.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/my_fragment.xml" value="0.10677083333333333" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/layout/mytoolbar.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch11_jetpack/src/main/res/menu/mymenu.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch12_material/src/main/res/layout/activity_main.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch12_material/src/main/res/layout/activity_main_appbar.xml" value="0.1078125" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch12_material/src/main/res/layout/activity_main_tabNviewPager.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch12_material/src/main/res/layout/appbar.xml" value="0.1078125" />
         <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch8_event/src/main/res/drawable/round_button.xml" value="0.123" />
         <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch8_event/src/main/res/layout/activity_main.xml" value="0.11197916666666667" />
         <entry key="..\:/Users/jiun/git/kotlinpractice/app/ch9_resource/src/main/res/layout-land/activity_main.xml" value="0.21472663139329806" />

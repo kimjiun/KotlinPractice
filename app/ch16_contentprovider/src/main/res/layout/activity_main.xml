@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contactBtn"/>
+
+    <Button
+        android:id="@+id/galleryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="galleryBtn"/>
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cameraBtn"/>
+    <Button
+        android:id="@+id/cameraBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cameraBtn2"/>
+
+    <Button
+        android:id="@+id/geoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="geoBtn"/>
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="callBtn"/>
+    <ImageView
+        android:id="@+id/galleryResult"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"/>
+</LinearLayout>

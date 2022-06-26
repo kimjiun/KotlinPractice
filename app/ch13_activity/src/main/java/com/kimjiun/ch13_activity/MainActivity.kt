@@ -4,6 +4,8 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Message
 import android.util.Log
 import android.view.WindowInsets
 import android.view.WindowInsetsController
@@ -14,6 +16,11 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import com.example.test13.TwoActivity
 import com.kimjiun.ch13_activity.databinding.ActivityMainBinding
+import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.channels.consumeEach
+import kotlin.concurrent.thread
+import kotlin.system.measureTimeMillis
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding:ActivityMainBinding
@@ -70,6 +77,51 @@ class MainActivity : AppCompatActivity() {
         }
         else{
             window.setFlags(FLAG_FULLSCREEN, FLAG_FULLSCREEN)
+        }
+
+        threadTest()
+        coroutineTest()
+    }
+
+    fun threadTest(){
+        val handler = object : Handler(){
+            override fun handleMessage(msg: Message) {
+                super.handleMessage(msg)
+                binding.button4.text = "sum : ${msg.arg1}"
+            }
+        }
+
+        thread{
+            var sum = 0L
+            var time = measureTimeMillis {
+                for( i in 1..2_000_000_000){
+                    sum += i
+                }
+                val message = Message()
+                message.arg1 = sum.toInt()
+                handler.sendMessage(message)
+            }
+        }
+    }
+
+    fun coroutineTest(){
+        val channel = Channel<Int>()
+        val backgrounScope = CoroutineScope(Dispatchers.Default + Job())
+        backgrounScope.launch {
+            var sum = 0L
+            var time = measureTimeMillis {
+                for( i in 1..2_000_000_000){
+                    sum += i
+                }
+            }
+            Log.d("JIUN", "TIME : $time")
+            channel.send(sum.toInt())
+        }
+
+        val mainScope = GlobalScope.launch(Dispatchers.Main) {
+            channel.consumeEach {
+                binding.button2.text = "sum : $it"
+            }
         }
     }
 

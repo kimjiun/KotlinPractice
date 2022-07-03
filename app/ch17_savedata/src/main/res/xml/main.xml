@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <Preference
+      android:key="activity"
+      android:title="Launch activity">
+    <intent
+        android:targetClass="com.kimjiun.ch17_savedata.SettingActivity"
+        android:targetPackage="com.kimjiun.ch17_savedata">
+      <extra
+          android:name="example_key"
+          android:value="example_value"/>
+    </intent>
+  </Preference>
+</PreferenceScreen>

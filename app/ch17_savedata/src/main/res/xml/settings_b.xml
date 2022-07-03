@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="b_category"
+        android:title="B Setting">
+        <SwitchPreferenceCompat
+            android:key="b1"
+            android:title="B b-1 setting"/>
+        <SwitchPreferenceCompat
+            android:key="b2"
+            android:title="B b-2 setting"/>
+    </PreferenceCategory>
+</PreferenceScreen>

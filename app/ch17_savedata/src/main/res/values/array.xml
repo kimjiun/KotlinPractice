@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="my_color">
+        <item>빨강</item>
+        <item>초록</item>
+        <item>파랑</item>
+    </array>
+    <array name="my_color_values">
+        <item>R</item>
+        <item>G</item>
+        <item>B</item>
+    </array>
+</resources>

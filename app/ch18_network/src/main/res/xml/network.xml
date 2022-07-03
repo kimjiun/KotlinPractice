@@ -1,0 +1,8 @@
+<network-security-config
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <domain-config cleartextTrafficPermitted="true"
+        tools:ignore="NetworkSecurityConfig">
+        <domain includeSubdomains="true"></domain>
+    </domain-config>
+</network-security-config>

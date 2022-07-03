@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="a_category"
+        android:title="A Setting">
+        <SwitchPreferenceCompat
+            android:key="a1"
+            android:title="A a-1 setting"/>
+        <SwitchPreferenceCompat
+            android:key="a2"
+            android:title="A a-2 setting"/>
+        <EditTextPreference
+            android:key="id"
+            android:title="ID 설정"/>
+        <ListPreference
+            android:key="color"
+            android:title="색상 선택"
+            android:entries="@array/my_color"
+            android:entryValues="@array/my_color_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

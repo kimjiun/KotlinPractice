@@ -19,6 +19,8 @@
             <option value="$PROJECT_DIR$/app/ch14_broadcastreceiver/ch15_service" />
             <option value="$PROJECT_DIR$/app/ch15_service" />
             <option value="$PROJECT_DIR$/app/ch16_contentprovider" />
+            <option value="$PROJECT_DIR$/app/ch17_savedata" />
+            <option value="$PROJECT_DIR$/app/ch18_network" />
             <option value="$PROJECT_DIR$/app/ch8_event" />
             <option value="$PROJECT_DIR$/app/ch9_resource" />
             <option value="$PROJECT_DIR$/app/test_outter" />

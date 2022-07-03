@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <Preference
+      android:key="a"
+      android:summary="A Setting summary"
+      android:title="A Setting"
+      android:fragment="com.kimjiun.ch17_savedata.ASettingFragment"/>
+    <Preference
+        android:key="b"
+        android:summary="B Setting summary"
+        android:title="B Setting"
+        android:fragment="com.kimjiun.ch17_savedata.BSettingFragment"/>
+</PreferenceScreen>

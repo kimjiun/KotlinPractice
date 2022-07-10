@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "844038840500",
+    "project_id": "kotlinprojects-f103e",
+    "storage_bucket": "kotlinprojects-f103e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844038840500:android:aa095722052deb65cfb7e1",
+        "android_client_info": {
+          "package_name": "com.kimjiun.ch20_firebase_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844038840500-krsvps2kc24iitml2rpol203unv6ktku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kimjiun.ch20_firebase_auth",
+            "certificate_hash": "928ff3e9cfbfb37aa33c0c7a455684794679087c"
+          }
+        },
+        {
+          "client_id": "844038840500-t7ors8stpbppk1e8erpune06li9go3j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWIGcPujb_vR_kqj_tzGkGYH7vtSA0wEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844038840500-t7ors8stpbppk1e8erpune06li9go3j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
